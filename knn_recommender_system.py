@@ -98,7 +98,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 colors = {'text': 'white'}
 
 app = dash.Dash(__name__,external_stylesheets=external_stylesheets)
-app.layout = html.Div(style={'background-image': 'url(assets/matt-hearne-qoYIVhcPxTM-unsplash.jpg)',
+app.layout = html.Div(style={'background-image': 'url(assets/nba-basketball-logo-nba.jpg)',
                              'background-position': 'center',
                              'position':'fixed',
                              'min-height':'100%',
